@@ -8,6 +8,7 @@ https://docs.djangoproject.com/en/2.1/howto/deployment/wsgi/
 """
 
 import os, sys
+sys.path.append('/home/vishal/.local/lib/python3.6')
 
 from django.core.wsgi import get_wsgi_application
 
@@ -17,5 +18,4 @@ import django.core.handlers.wsgi
 
 application = get_wsgi_application()
 
-sys.path.append('/home/vishal/.local/lib/python3.6')
 # sys.path.append('/var/www/djangoapi')
