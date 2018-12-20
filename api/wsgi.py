@@ -13,6 +13,8 @@ from django.core.wsgi import get_wsgi_application
 
 os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'api.settings')
 
+import django.core.handlers.wsgi
+
 application = get_wsgi_application()
 
 sys.path.append('/var/www')
