@@ -17,5 +17,5 @@ import django.core.handlers.wsgi
 
 application = get_wsgi_application()
 
-# sys.path.append('/var/www')
+sys.path.append('/home/vishal/.local/lib/python3.6')
 # sys.path.append('/var/www/djangoapi')
