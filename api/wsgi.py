@@ -16,4 +16,4 @@ os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'api.settings')
 application = get_wsgi_application()
 
 sys.path.append('/var/www')
-sys.path.append('/var/www/django')
+sys.path.append('/var/www/djangoapi')
